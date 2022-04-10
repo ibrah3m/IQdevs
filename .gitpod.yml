@@ -8,7 +8,7 @@ tasks:
   - init: bash .prebuild.sh
     command: ddev launch
     env:
-      MAIN_REPO: $PROJECT
+      MAIN_REPO: https://github.com/ibrah3m/IQdevs
 
 # mainConfiguration: MAIN_REPO
 
