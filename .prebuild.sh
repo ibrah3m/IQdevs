@@ -1,7 +1,8 @@
 # brew install drud/ddev/ddev	&&																						
 # sudo apt-get update && sudo apt-get install -y xdg-utils &&
 
-git clone ${PROJECT_REPO} .
+git clone ${PROJECT_REPO} ./temp
+mv temp/.* ./
 
 
 
