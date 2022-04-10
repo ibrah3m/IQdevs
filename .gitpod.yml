@@ -3,10 +3,7 @@ image: drud/ddev-gitpod-base:latest
 tasks:
 
   - before : >
-      rm -rf .git
-      git clone ${PROJECT_REPO} temp &&
-      mv temp/* . &&
-      rm -rf temp &&
+
     init: bash .prebuild.sh
     command: ddev launch
 
