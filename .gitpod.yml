@@ -1,10 +1,13 @@
 image: drud/ddev-gitpod-base:latest
+additionalRepositories:
+  - url:  $PROJECT
+    checkoutLocation: fullstack-backend
 
 
 tasks:
   - init: bash .prebuild.sh
     command: ddev launch
-    env:
-      MAIN_REPO: $PROJECT
+#     env:
+#       MAIN_REPO:
 
-mainConfiguration: MAIN_REPO
+# mainConfiguration: MAIN_REPO
