@@ -1,6 +1,6 @@
 image: drud/ddev-gitpod-base:latest
 additionalRepositories:
-  - url:  ${PROJECT}
+  - url:  PROJECT
     checkoutLocation: fullstack-backend
 
 
