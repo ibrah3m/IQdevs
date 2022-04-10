@@ -1,0 +1,7 @@
+image: drud/ddev-gitpod-base:latest
+
+mainConfiguration: $PROJECT
+
+tasks:
+  - init: bash .prebuild.sh
+    command: ddev launch

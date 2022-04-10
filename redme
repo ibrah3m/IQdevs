@@ -1,0 +1,3 @@
+#variables 
+$PROJECT_REPO - for client project 
+$PROJECT_TYPE - according to the ddev
