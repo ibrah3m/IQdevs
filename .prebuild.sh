@@ -6,7 +6,7 @@
 
 
 
-ddev config --project-type=$PROJECT_TYPE &&
+ddev config --project-type= &&
 ddev start &&
 ddev composer install &&
 ddev exec "cat .env.example | sed  -E 's/DB_(HOST|DATABASE|USERNAME|PASSWORD)=(.*)/DB_\1=db/g' > .env" &&
