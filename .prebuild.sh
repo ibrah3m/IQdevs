@@ -2,6 +2,7 @@
 # sudo apt-get update && sudo apt-get install -y xdg-utils &&
 
 git clone ${PROJECT_REPO} ./temp
+mv temp/.git ./.git
 mv temp/.* ./
 
 
