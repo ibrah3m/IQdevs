@@ -5,7 +5,6 @@ tasks:
   - before: git clone $PROJECT_REPO
     init: bash .prebuild.sh
     command: ddev launch
-#     env:
-#       MAIN_REPO:
+
 
 
