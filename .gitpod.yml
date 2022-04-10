@@ -1,14 +1,14 @@
 image: drud/ddev-gitpod-base:latest
 additionalRepositories:
-  - url:  {{MAIN_REPO}}
+  - url:  $PROJECT
     checkoutLocation: fullstack-backend
 
 
 tasks:
   - init: bash .prebuild.sh
     command: ddev launch
-    env:
-      MAIN_REPO: https://github.com/ibrah3m/IQdevs
+#     env:
+#       MAIN_REPO:
 
 # mainConfiguration: MAIN_REPO
 
