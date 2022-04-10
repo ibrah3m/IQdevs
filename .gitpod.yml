@@ -1,4 +1,4 @@
-image: drud/ddev-gitpod-base:latest
+image: drupalpod/drupalpod-gitpod-base:20220322
 
 tasks:
 
