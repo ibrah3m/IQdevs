@@ -4,7 +4,9 @@ tasks:
 
   - before:    
       gp sync-await beforebuild &&
-      bash .beforebuild.sh
+      bash .beforebuild.sh &&
+      gp sync-done beforebuild
+
     init: 
       gp sync-await prebuild &&
       bash .prebuild.sh &&
