@@ -1,0 +1,10 @@
+# image: drupalpod/drupalpod-gitpod-base:20220322
+
+tasks:
+
+  - before:  bash .beforebuild.sh
+    init:  bash .prebuild.sh
+    command: ddev launch
+
+
+
