@@ -5,4 +5,4 @@
 
     gp sync-await prebuild &&
     mv temp/{,.}* . &&
-    rm -rf temp  &&
+    rm -rf temp  
