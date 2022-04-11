@@ -2,8 +2,8 @@
 
 tasks:
 
-  - before:  bash .beforebuild.sh
-    init:   bash .prebuild.sh 
+  - before: bash .beforebuild.sh
+    init: bash .prebuild.sh 
     command: ddev launch
 
 
