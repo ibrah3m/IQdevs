@@ -7,7 +7,8 @@ tasks:
       bash .beforebuild.sh
     init: 
       gp sync-await prebuild &&
-      bash .prebuild.sh 
+      bash .prebuild.sh &&
+      gp sync-done prebuild
     command: ddev launch
 
 
