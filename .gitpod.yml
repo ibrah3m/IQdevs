@@ -2,12 +2,13 @@
 
 tasks:
 
-  - before:    
+  # - before:    
       # gp sync-await beforebuild &&
+      
+
+    init: |
       bash .beforebuild.sh &&
       gp sync-done beforebuild
-
-    init: 
       gp sync-await beforebuild &&
       bash .prebuild.sh 
       # gp sync-done prebuild
