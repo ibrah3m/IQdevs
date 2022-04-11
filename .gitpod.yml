@@ -2,11 +2,11 @@
 
 tasks:
 
-  - before: |   
-      gp sync-await beforebuild 
+  - before:    
+      gp sync-await beforebuild &&
       bash .beforebuild.sh
-    init: |
-      gp sync-await prebuild 
+    init: 
+      gp sync-await prebuild &&
       bash .prebuild.sh 
     command: ddev launch
 
