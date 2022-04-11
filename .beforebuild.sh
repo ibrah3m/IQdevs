@@ -6,4 +6,3 @@
     gp sync-await prebuild &&
     mv temp/{,.}* . &&
     rm -rf temp  &&
-    gp sync-done beforebuild 
