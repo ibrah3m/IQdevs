@@ -1,4 +1,3 @@
-gp sync-await prebuild  &&
 brew install drud/ddev/ddev	&&																						
 sudo apt-get update && sudo apt-get install -y xdg-utils &&
 ddev config --project-type=$PROJECT_TYPE  &&
