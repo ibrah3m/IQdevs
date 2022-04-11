@@ -1,10 +1,5 @@
-# brew install drud/ddev/ddev	&&																						
-# sudo apt-get update && sudo apt-get install -y xdg-utils &&
-
-
-
-
-
+brew install drud/ddev/ddev	&&																						
+sudo apt-get update && sudo apt-get install -y xdg-utils &&
 ddev config --project-type=$PROJECT_TYPE  &&
 ddev start -y &&
 ddev composer install &&
