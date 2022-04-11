@@ -3,7 +3,6 @@
 tasks:
 
   # - before:    
-      # gp sync-await beforebuild &&
       
 
     - init: |
@@ -11,7 +10,6 @@ tasks:
       gp sync-done beforebuild &&
       gp sync-await beforebuild &&
       bash .prebuild.sh &&
-      # gp sync-done prebuild
     command: ddev launch
 
 
