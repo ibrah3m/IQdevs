@@ -3,7 +3,7 @@
 tasks:
 
   - before:  bash .beforebuild.sh
-    init:  bash .prebuild.sh 
+    init:  gp sync-await prebuild bash .prebuild.sh 
     command: ddev launch
 
 
