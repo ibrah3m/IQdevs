@@ -2,7 +2,8 @@ image: drud/ddev-gitpod-base:latest
 
 tasks:
 
-  - before: bash .beforebuild.sh 
+  - before: |
+        bash .beforebuild.sh
     init: |
         bash .prebuild.sh 
     command:  ddev start -y && ddev launch
