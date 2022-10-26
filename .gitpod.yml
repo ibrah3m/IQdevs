@@ -5,7 +5,7 @@ tasks:
   - before: bash .beforebuild.sh 
     init: |
         bash .prebuild.sh 
-    command: ddev launch
+    command:  ddev start -y && ddev launch
 
 
 github:
