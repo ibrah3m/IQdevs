@@ -6,7 +6,10 @@ tasks:
         bash .beforebuild.sh
     init: |
         bash .prebuild.sh 
-    command:  ddev start -y && ddev launch
+    command:
+        ddev start -y
+        gp ports await 8080 && gp preview $(gp url 8080)
+
 
 
 github:
