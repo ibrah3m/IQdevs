@@ -2,7 +2,7 @@ image: drud/ddev-gitpod-base:latest
 
 tasks:
 
-  - before: |
+  - before: 
         bash .beforebuild.sh
     init: |
         bash .prebuild.sh 
